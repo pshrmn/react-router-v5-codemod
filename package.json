@@ -23,5 +23,8 @@
   "homepage": "https://github.com/pshrmn/react-router-v5-codemod#readme",
   "devDependencies": {
     "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.3.32"
   }
 }
