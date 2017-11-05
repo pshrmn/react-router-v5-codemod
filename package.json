@@ -1,0 +1,27 @@
+{
+  "name": "react-router-v5-codemod",
+  "version": "1.0.0-alpha.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshrmn/react-router-v5-codemod.git"
+  },
+  "keywords": [
+    "React",
+    "Router",
+    "codemod"
+  ],
+  "author": "Paul Sherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshrmn/react-router-v5-codemod/issues"
+  },
+  "homepage": "https://github.com/pshrmn/react-router-v5-codemod#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
