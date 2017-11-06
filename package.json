@@ -1,8 +1,7 @@
 {
   "name": "react-router-v5-codemod",
   "version": "1.0.0-alpha.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React Router v5 Codemod Transforms",
   "scripts": {
     "test": "jest"
   },
