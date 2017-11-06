@@ -36,4 +36,25 @@ describe('<Route exact> -> <Route parent>', () => {
     null,
     'exact/expressions'
   );
+  // <NavLink exact /> -> <NavLink />
+  defineTest(
+    __dirname,
+    'exact',
+    null,
+    'exact/navLinkExact'
+  );
+  // <NavLink /> -> <NavLink parent />
+  defineTest(
+    __dirname,
+    'exact',
+    null,
+    'exact/navLinkNonExact'
+  );
+  // Direct children of a <Switch>
+  defineTest(
+    __dirname,
+    'exact',
+    null,
+    'exact/switchChildren'
+  );
 });
