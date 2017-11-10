@@ -15,6 +15,13 @@ describe('<Route exact> -> <Route parent>', () => {
     null,
     'exact/noExactBooleanAttr'
   );
+  // <Route />
+  defineTest(
+    __dirname,
+    'exact',
+    null,
+    'exact/skipPathless'
+  );
   // <Route exact={false} /> -> <Route parent={true} />
   defineTest(
     __dirname,
